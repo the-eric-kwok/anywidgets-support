@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="AnyWidgets privacy policy: on-device projects, model endpoints, widget network access, and feedback.">
+<title>Privacy Policy · AnyWidgets</title>
+<link rel="canonical" href="https://the-eric-kwok.github.io/anywidgets-support/en/privacy.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AnyWidgets">
+<meta property="og:title" content="Privacy Policy · AnyWidgets">
+<meta property="og:url" content="https://the-eric-kwok.github.io/anywidgets-support/en/privacy.html">
+<link rel="alternate" hreflang="en" href="https://the-eric-kwok.github.io/anywidgets-support/en/privacy.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://the-eric-kwok.github.io/anywidgets-support/zh/privacy.html">
+<link rel="alternate" hreflang="x-default" href="https://the-eric-kwok.github.io/anywidgets-support/en/privacy.html">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+<nav aria-label="Main"><a class="brand" href="index.html">AnyWidgets</a><a href="privacy.html" aria-current="page">Privacy</a><a href="support.html">Support</a><a href="../zh/privacy.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></nav>
+<main id="content" tabindex="-1">
+<p class="eyebrow">Privacy &amp; data</p>
+<h1>Privacy Policy</h1>
+<p class="muted">Updated October 28, 2026</p>
+<p>AnyWidgets is developed by Yaoming Guo for creating, previewing, and running personal widgets on iPhone, iPad, and Mac. This policy covers the app and this support site.</p>
+
+<h2>Summary</h2>
+<ul>
+<li><strong>No account</strong>: there is no sign-up or sign-in, and the app contains no ads, ad tracking, or usage analytics.</li>
+<li><strong>Projects stay on your device</strong>: widget projects, source code, build output, and preferences are stored locally. This version has no cloud sync.</li>
+<li><strong>AI goes straight to your endpoint</strong>: AI assistance uses the model URL and key you provide. Requests go directly from the device to that endpoint; the developer does not receive conversations.</li>
+<li><strong>Widget networking is decided by your project</strong>: widget code can only reach the origins its project declares, and requests go to the services the project names.</li>
+<li><strong>You can delete local data</strong>: deleting a project or the app removes the corresponding files; model keys in the Keychain may need separate cleanup.</li>
+</ul>
+
+<h2>Data stored on your device</h2>
+<p>Project folders, source code, build output, preview state, and conversation history are stored in the app container, or in a folder you choose on macOS. Endpoint names, URLs, model names, and parameters are stored in app preferences. API keys are stored in the system Keychain, marked as this-device-only and readable after unlock, and are not synced through iCloud Keychain.</p>
+<p>Uninstalling the app usually removes its local data container, but Keychain items may remain. To clean up completely, delete the endpoint in the app first.</p>
+
+<h2>AI assistance and model endpoints</h2>
+<p>You configure the model endpoint yourself (URL, model, API key). When you start a conversation, the app sends your prompts, message history, source and file summaries from the current project, and tool results directly to that endpoint. The recipient is the provider you chose, and its processing and retention are governed by that provider's privacy policy.</p>
+<p>The developer does not operate that endpoint and does not receive or store your conversation content or keys. Do not submit sensitive information unrelated to the task, and review the provider's terms before using a public or third-party model service.</p>
+
+<h2>Widget network access</h2>
+<p>Widgets run in a restricted JavaScript runtime, and network access is limited to the origins the project declares. A widget with networking enabled sends the addresses, parameters, and data it requests to the corresponding service, which may be operated by a third party. The developer does not operate those servers and does not collect the content of widget requests.</p>
+<p>Runtime state, timeline refreshes, and caches are stored locally so widgets can render on the Home Screen or Lock Screen.</p>
+
+<h2>This support site</h2>
+<p>This site is hosted on GitHub Pages and adds no analytics scripts, ads, or tracking cookies. GitHub may process IP addresses and technical request data to deliver and protect the hosting service under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+<p>If you send feedback by email, the relevant mail providers process what you send. Feedback is used only to investigate issues and improve the product, and is not published.</p>
+
+<h2>Sharing, analytics SDKs, and retention</h2>
+<p>Apart from the transfers needed to provide the features above, the developer does not sell or share your personal information. The app includes no third-party advertising, analytics, or crash-reporting SDKs. Local data remains until you delete a project, delete an endpoint, or uninstall the app; the developer holds no copy of your project data.</p>
+
+<h2>Children's privacy</h2>
+<p>The app is not directed to children and does not knowingly collect personal information from children. If you believe a child has provided personal information, contact us at the address below.</p>
+
+<h2>Changes and contact</h2>
+<p>When this policy changes, the date at the top of this page is updated, and material changes to data handling are described here. For privacy questions or data requests, email <a href="mailto:eric_kwoc@icloud.com">eric_kwoc@icloud.com</a> or see the <a href="support.html">support page</a>.</p>
+</main>
+<footer><span>AnyWidgets © 2026 Yaoming Guo</span><a href="support.html">Contact</a></footer>
+</body>
+</html>

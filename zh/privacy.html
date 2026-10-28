@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="AnyWidgets 隐私政策：本机项目数据、模型端点、小组件网络访问与反馈方式。">
+<title>隐私政策 · AnyWidgets</title>
+<link rel="canonical" href="https://the-eric-kwok.github.io/anywidgets-support/zh/privacy.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AnyWidgets">
+<meta property="og:title" content="隐私政策 · AnyWidgets">
+<meta property="og:url" content="https://the-eric-kwok.github.io/anywidgets-support/zh/privacy.html">
+<link rel="alternate" hreflang="en" href="https://the-eric-kwok.github.io/anywidgets-support/en/privacy.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://the-eric-kwok.github.io/anywidgets-support/zh/privacy.html">
+<link rel="alternate" hreflang="x-default" href="https://the-eric-kwok.github.io/anywidgets-support/en/privacy.html">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<a class="skip-link" href="#content">跳至正文</a>
+<nav aria-label="主导航"><a class="brand" href="index.html">AnyWidgets</a><a href="privacy.html" aria-current="page">隐私政策</a><a href="support.html">支持</a><a href="../en/privacy.html" lang="en" hreflang="en">English</a></nav>
+<main id="content" tabindex="-1">
+<p class="eyebrow">隐私与数据</p>
+<h1>隐私政策</h1>
+<p class="muted">更新日期：2026 年 10 月 28 日</p>
+<p>AnyWidgets 由郭耀铭开发，用于在 iPhone、iPad 和 Mac 上创建、预览与运行个人小组件。本政策适用于 App 和本支持网站。</p>
+
+<h2>概要</h2>
+<ul>
+<li><strong>无需账号</strong>：App 不提供注册或登录，也没有内置广告、广告追踪或使用行为分析。</li>
+<li><strong>项目保存在设备上</strong>：小组件项目、源码、编译产物与偏好设置存放在本机，当前版本不提供云端同步。</li>
+<li><strong>AI 直接连接你配置的端点</strong>：AI 辅助功能使用你自行填写的模型地址与密钥，请求由设备直接发往该端点，开发者不接收对话内容。</li>
+<li><strong>小组件联网由项目决定</strong>：组件代码只能访问项目声明的网络来源，请求会发送到项目指定的服务。</li>
+<li><strong>你可以删除本机数据</strong>：删除项目或卸载 App 会移除对应文件；钥匙串中的模型密钥可能需要单独清理。</li>
+</ul>
+
+<h2>保存在设备上的数据</h2>
+<p>项目目录、源码、编译产物、预览状态和对话记录保存在 App 的本机容器或你在 macOS 上选择的文件夹中。模型端点的名称、地址、模型名与参数保存在 App 的偏好设置里；API 密钥保存在系统钥匙串，设置为仅本机可用、设备解锁后可读，不通过 iCloud 钥匙串同步。</p>
+<p>卸载 App 通常会移除其本机数据容器，但系统钥匙串项目可能保留。如需彻底清理，请先在 App 内删除对应端点。</p>
+
+<h2>AI 辅助与模型端点</h2>
+<p>你需要在 App 内自行配置模型端点（地址、模型、API 密钥）。发起对话时，App 会把提示词、消息历史、当前项目的源码与文件摘要，以及工具调用的结果直接发送到该端点。接收方是你选择的服务商，其处理与保留方式受该服务商隐私政策约束。</p>
+<p>开发者不运营该端点，不接收、不转存对话内容或密钥。请勿在对话中提交与服务无关的敏感信息；使用公共或第三方模型服务前，请阅读其隐私条款。</p>
+
+<h2>小组件的网络访问</h2>
+<p>小组件在受限的 JavaScript 运行时中执行，网络访问被限制在项目声明的来源范围内。启用网络能力的组件会把它请求的地址、参数和数据发送到对应服务，这些服务可能由第三方运营。开发者不运营这些服务器，也不收集组件产生的请求内容。</p>
+<p>小组件与 App 的运行状态、时间线刷新和缓存保存在本机，用于在桌面或锁定屏幕上展示。</p>
+
+<h2>本支持网站</h2>
+<p>本网站由 GitHub Pages 托管，没有自行添加的分析脚本、广告或追踪 Cookie。访问时，GitHub 可能处理 IP 地址和技术请求信息以提供并保护托管服务，适用 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 隐私声明</a>。</p>
+<p>若你通过邮件反馈，相关邮件服务商会处理你提供的内容；反馈仅用于排查问题和改进产品，不会公开展示。</p>
+
+<h2>共享、分析 SDK 与数据保留</h2>
+<p>除上述为提供功能所必需的传输外，开发者不会出售或共享你的个人信息。App 不集成第三方广告、行为分析或崩溃上报 SDK。本机数据保留到你删除项目、删除端点或卸载 App 为止；开发者不持有你的项目数据副本。</p>
+
+<h2>儿童隐私</h2>
+<p>App 不面向儿童，也不主动收集儿童个人信息。若你认为儿童向我们提供了个人信息，请通过下方邮箱联系处理。</p>
+
+<h2>政策变更与联系</h2>
+<p>政策更新时会修改本页顶部的日期。涉及数据处理的重大变化会在本页说明。隐私问题或数据请求，请发送邮件至 <a href="mailto:eric_kwoc@icloud.com">eric_kwoc@icloud.com</a>，或查看<a href="support.html">支持页面</a>。</p>
+</main>
+<footer><span>AnyWidgets © 2026 郭耀铭</span><a href="support.html">联系与反馈</a></footer>
+</body>
+</html>
